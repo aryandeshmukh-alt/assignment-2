@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="inputBox" />
+<p id="output"></p>
+
+<script>
+  const input = document.getElementById("inputBox");
+  const output = document.getElementById("output");
+
+  input.addEventListener("input", function () {
+    output.innerText = input.value;
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="list">
+  <li>Item 1</li>
+</ul>
+<button id="addItem">Add Item</button>
+
+<script>
+  const button = document.getElementById("addItem");
+  const list = document.getElementById("list");
+
+  button.addEventListener("click", function () {
+    const newItem = document.createElement("li");
+    newItem.innerText = "New Item";
+    list.appendChild(newItem);
+  });
+</script>
+
+</body>
+</html>

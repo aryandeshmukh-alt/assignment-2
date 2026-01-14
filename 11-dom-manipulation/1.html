@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="message">Hello World</div>
+<button id="changeBtn">Change Text</button>
+
+<script>
+  const button = document.getElementById("changeBtn");
+  const messageDiv = document.getElementById("message");
+
+  button.addEventListener("click", function () {
+    messageDiv.innerText = "Text Changed Successfully";
+  });
+</script>
+
+</body>
+</html>

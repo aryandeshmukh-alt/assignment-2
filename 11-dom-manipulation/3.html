@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="removeMe">Remove this text</p>
+<button id="removeBtn">Remove</button>
+
+<script>
+  const button = document.getElementById("removeBtn");
+  const paragraph = document.getElementById("removeMe");
+
+  button.addEventListener("click", function () {
+    paragraph.remove();
+  });
+</script>
+
+</body>
+</html>
